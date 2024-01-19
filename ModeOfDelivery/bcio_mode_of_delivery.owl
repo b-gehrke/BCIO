@@ -664,8 +664,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_011055">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011056"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011057"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that involves one recipient in the location where the intervention is delivered.</obo:IAO_0000115>
         <rdfs:label>individual-based mode of delivery</rdfs:label>
@@ -677,7 +675,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_011056">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011057"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that involves two recipients in the location where the intervention is delivered who have an interpersonal relationship.</obo:IAO_0000115>
         <rdfs:label>pair-based mode of delivery</rdfs:label>
@@ -700,7 +697,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_011058">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011059"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery in which the only causal influence is from the intervention source to the recipient.</obo:IAO_0000115>
         <rdfs:label>uni-directional mode of delivery</rdfs:label>
@@ -723,7 +719,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_011060">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011061"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that involves delivery and receipt of the intervention or its components occurring at the same time or very close in time.</obo:IAO_0000115>
         <rdfs:label>synchronous mode of delivery</rdfs:label>
@@ -746,7 +741,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_011062">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
-        <owl:disjointWith rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011063"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that is not dependent on actions on the part of the intervention recipient.</obo:IAO_0000115>
         <rdfs:label>push mode of delivery</rdfs:label>
@@ -771,7 +765,6 @@
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_011000"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that involves application of typical elements of game playing  to other areas of activity, typically as an online marketing technique to encourage engagement with a product or service.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.lexico.com/en/definition/gamification</obo:IAO_0000119>
         <rdfs:comment>Includes point scoring, competition with others, and rules of play.</rdfs:comment>
         <rdfs:label>gamification mode of delivery</rdfs:label>
     </owl:Class>
@@ -787,6 +780,12 @@
         <rdfs:comment>Includes art therapy, music therapy, dance and acting.</rdfs:comment>
         <rdfs:label>arts feature mode of delivery</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://humanbehaviourchange.org/ontology/BCIO_043000 -->
+
+    <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_043000"/>
 </rdf:RDF>
 
 
