@@ -24,8 +24,8 @@ jobs:
         run: pip install git+https://github.com/ontology-tools/onto-spread-ed.git
       - name: Install ROBOT
         run: >
-          curl -o /tmp/robot.jar https://github.com/ontodev/robot/releases/download/v1.9.7/robot.jar
-          curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > /tmp/robot
+          curl -o /tmp/robot.jar -L https://github.com/ontodev/robot/releases/download/v1.9.7/robot.jar
+          curl -L https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > /tmp/robot
           chmod +x /tmp/robot
       - name: Build externals
         env:
