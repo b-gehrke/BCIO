@@ -11,7 +11,7 @@
     ],
     "target": {
       "file": "Upper Level BCIO/bcio_external.owx",
-      "iri": "http://humanbehaviourchange.org/ontology/bcio_external.owl",
+      "iri": "http://humanbehaviourchange.org/ontology/bcio_external.owx",
       "ontology_annotations": {},
       "publish": true
     },
