@@ -1297,7 +1297,7 @@ orientation&quot; in the Regulatory Fit Theory</obo:IAO_0000112>
     <!-- http://humanbehaviourchange.org/ontology/BCIO_006081 -->
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_006081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50906"/>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;role&gt; that inheres in a human being by virtue of their social and institutional circumstances.</obo:IAO_0000115>
         <rdfs:comment>A role can be assigned without being realised. A person realises a role by doing something.</rdfs:comment>
@@ -7360,12 +7360,6 @@ In this definition, ‘change’ refers to change from what would have been the 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
@@ -7380,6 +7374,12 @@ In this definition, ‘change’ refers to change from what would have been the 
     <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906"/>
     
 
 
