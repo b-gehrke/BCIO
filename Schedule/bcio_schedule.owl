@@ -75,6 +75,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000155"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -367,6 +373,12 @@
                 <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_003000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000155"/>
+                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_008565"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112> a presentation</obo:IAO_0000112>
         <obo:IAO_0000112> group discussion</obo:IAO_0000112>
         <obo:IAO_0000112> the first 6 weeks of the intervention</obo:IAO_0000112>
@@ -383,6 +395,12 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_008510">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_008505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000155"/>
+                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_008525"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112> An advertisement display.</obo:IAO_0000112>
         <obo:IAO_0000112> An online chat session</obo:IAO_0000112>
         <obo:IAO_0000112>A counselling session</obo:IAO_0000112>
@@ -418,12 +436,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_008525">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_008510"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000112> 2 minutes</obo:IAO_0000112>
         <obo:IAO_0000112> 30 minutes</obo:IAO_0000112>
         <obo:IAO_0000112>1 hour</obo:IAO_0000112>
@@ -475,7 +487,6 @@
         <obo:IAO_0000112>telephone feedback sessions were more frequent during the first 6 weeks</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
         <obo:IAO_0000115>A &lt;BCI schedule of delivery&gt; in which the frequency and duration of contact events change over the course of a temporal part or BCI.</obo:IAO_0000115>
-        <obo:IAO_0000232>relationship? is about schedule? or is a type of schedule?</obo:IAO_0000232>
         <rdfs:label>irregular intervention schedule</rdfs:label>
     </owl:Class>
     
@@ -505,12 +516,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_008560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_003000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000112> 1 year</obo:IAO_0000112>
         <obo:IAO_0000112> 2 months</obo:IAO_0000112>
         <obo:IAO_0000112>6 weeks</obo:IAO_0000112>
@@ -525,12 +530,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_008565">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_008505"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000112> 2 weeks</obo:IAO_0000112>
         <obo:IAO_0000112>6 weeks</obo:IAO_0000112>
         <obo:IAO_0000114>Published</obo:IAO_0000114>
@@ -563,12 +562,6 @@
 
     <owl:Class rdf:about="http://humanbehaviourchange.org/ontology/BCIO_008580">
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050315"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_050315"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -2873,5 +2866,5 @@ of answers.&quot;</obo:IAO_0000112>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
